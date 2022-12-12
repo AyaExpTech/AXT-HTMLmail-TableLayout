@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>table layout test</title>
+</head>
+
+<body style="margin:0;padding:0;">
+    <div align="center" style="margin:0 auto;background-color:white;">
+        <div style="width:600px;" class="article">
+            <table border="0" cellpadding="0" cellspacing="0" width="600">
+                <tbody>
+                    <!-- space -->
+                    <tr class="section">
+                        <td>
+                            <div style="height:20px;margin:8px 0;"></div>
+                        </td>
+                    </tr>
+                    <!-- header -->
+                    <tr class="section">
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="600"
+                                style="margin:8px 0;border-bottom:2px solid #aaa;">
+                                <tbody>
+                                    <td width="100">
+                                        <img src="https://axtech.dev/_bg/1.jpg" alt=""
+                                            style="width:100px;object-fit:cover;max-height:50px;">
+                                    </td>
+                                    <td style="padding-left:8px;font-size:1.5em;">
+                                        <p style="padding:4px;border-left:2px solid #aaa;">
+                                            ああああああああああああああああああ
+                                        </p>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- caption -->
+                    <tr class="section">
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:8px 0;">
+                                <tbody>
+                                    <tr>
+                                        <td
+                                            style="color:#999;padding-left:6px;border-left:6px solid #aaa;border-radius: 6px;">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+                                            cupiditate voluptas harum. Ratione deleniti ab commodi, voluptatem
+                                            cupiditate non in facilis? Molestiae, excepturi vero odit odio
+                                            necessitatibus nobis alias cupiditate.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- title -->
+                    <tr class="section">
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:8px 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="height:4px;border-top:2px solid #448;" colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color:#336;padding-left:8px;">▶</td>
+                                        <td>
+                                            <h1 style="margin:0;font-size:1.75em;">あああああああああああああああああああ</h1>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="height:4px;border-bottom:2px solid #448;" colspan="2"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- image -->
+                    <tr class="section">
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:8px 0;">
+                                <tbody>
+                                    <tr style="position:relative;">
+                                        <img src="https://axtech.dev/_bg/1.jpg" alt=""
+                                            style="width:100%;object-fit:cover;max-height:600px;">
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- headline -->
+                    <tr class="section">
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:8px 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="padding-left:8px;border-left:6px solid #336;">
+                                            <h1 style="margin:0;font-size:1.75em;">あああああああああああああああああああ</h1>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="height:0px;border-bottom:2px solid #336;"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- text -->
+                    <tr class="section">
+                        <td>
+                            <p style="line-height:1.5;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                                animi, distinctio
+                                laboriosam eligendi vitae deserunt quae nobis fugit non quidem autem minus reprehenderit
+                                deleniti libero, tempore doloremque assumenda dolore dolorem.
+                            </p>
+                        </td>
+                    </tr>
+                    <!-- description -->
+                    <tr class="section">
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:8px 0;">
+                                <tbody>
+                                    <tr style="position:relative;">
+                                        <td style="width:40%;" rowspan="2">
+                                            <img src="https://axtech.dev/_bg/1.jpg" alt=""
+                                                style="width:100%;object-fit:cover;max-height:600px;">
+                                        </td>
+                                        <td style="padding-left:16px;">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maiores
+                                                aliquam quas odit perferendis totam placeat iusto officiis, tenetur vero
+                                                quaerat, voluptatibus assumenda hic neque temporibus reprehenderit
+                                                molestiae vitae porro.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-left:16px;">
+                                            <button style="margin:0 auto;display:block;cursor:pointer;">
+                                                Click me!</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- divisions -->
+                    <tr class="section">
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:8px 0;">
+                                <tbody>
+                                    <tr>
+                                        <td width="200" style="padding-right:8px;">
+                                            <!-- 左のパーツをここに -->
+                                            <table border="0" cellpadding="0" cellspacing="0" width="192"
+                                                style="margin:8px 0;">
+                                                <tbody>
+                                                    <tr style="position:relative;">
+                                                        <img src="https://axtech.dev/_bg/1.jpg" alt=""
+                                                            style="width:100%;object-fit:cover;max-height:600px;">
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- 内部パーツここまで -->
+                                        </td>
+                                        <td width="200" style="padding-left:4px;padding-right:4px;">
+                                            <!-- 中のパーツをここに -->
+                                            <table border="0" cellpadding="0" cellspacing="0" width="192"
+                                                style="margin:8px 0;">
+                                                <tbody>
+                                                    <tr style="position:relative;">
+                                                        <img src="https://axtech.dev/_bg/1.jpg" alt=""
+                                                            style="width:100%;object-fit:cover;max-height:600px;">
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- 内部パーツここまで -->
+                                        </td>
+                                        <td width="200" style="padding-left:8px;">
+                                            <!-- 右のパーツをここに -->
+                                            <table border="0" cellpadding="0" cellspacing="0" width="192"
+                                                style="margin:8px 0;">
+                                                <tbody>
+                                                    <tr style="position:relative;">
+                                                        <img src="https://axtech.dev/_bg/1.jpg" alt=""
+                                                            style="width:100%;object-fit:cover;max-height:600px;">
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- 内部パーツここまで -->
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
